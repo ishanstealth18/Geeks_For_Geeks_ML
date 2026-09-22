@@ -2,5 +2,5 @@ holidays
 joblib
 matplotlib
 seaborn
-sklearn
+scikit-learn
 
