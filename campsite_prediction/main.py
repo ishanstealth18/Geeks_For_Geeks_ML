@@ -1,4 +1,4 @@
-from FastAPI import FastAPI
+
 import holidays
 import numpy as np
 import streamlit as st
