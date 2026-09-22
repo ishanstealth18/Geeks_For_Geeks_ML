@@ -1,2 +1,6 @@
 holidays
 joblib
+matplotlib
+seaborn
+sqlite3
+
