@@ -1,4 +1,5 @@
 holidays
 joblib
 matplotlib
+seaborn
 
