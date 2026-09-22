@@ -7,7 +7,7 @@ import streamlit as st
 import sqlite3
 
 
-df = pd.read_csv('Natural_Resources_Camping_Parks_Reservation_Data.csv')
+df = pd.read_csv('campsite_prediction/Natural_Resources_Camping_Parks_Reservation_Data.csv')
 country_count = df.groupby(['Country'], as_index=False).agg(total_count=('Country', 'count')).sort_values(
         by=['total_count'], ascending=False)
 
