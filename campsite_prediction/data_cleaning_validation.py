@@ -252,10 +252,10 @@ def data_cleaning(df):
     print(X_grouped.columns)
 
     # Save the trained XGBoost model structure
-    joblib.dump(xgb, 'camping_predictor_model.pkl')
+    joblib.dump(xgb, 'campsite_prediction/camping_predictor_model.pkl')
 
     # Save your park rankings map so your app backend can lookup 'park_scale_tier'
-    pd.Series(park_traffic_tier).to_pickle('park_scale_tier_map.pkl')
+    pd.Series(park_traffic_tier).to_pickle('campsite_prediction/park_scale_tier_map.pkl')
     print("Core app engines successfully exported!")
 
     return daily_df
