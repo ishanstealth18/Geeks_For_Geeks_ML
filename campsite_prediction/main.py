@@ -9,8 +9,8 @@ import data_analysis_prediction
 import data_cleaning_validation
 
 # 1. Load the pre-trained assets into memory on server start
-model = joblib.load('camping_predictor_model.pkl')
-park_tier_map = pd.read_pickle('park_scale_tier_map.pkl')
+model = joblib.load('campsite_prediction/camping_predictor_model.pkl')
+park_tier_map = pd.read_pickle('campsite_prediction/park_scale_tier_map.pkl')
 
 
 df = pd.read_csv('Natural_Resources_Camping_Parks_Reservation_Data.csv')
